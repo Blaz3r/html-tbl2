@@ -36,6 +36,7 @@ body{
         font-size: 50px;
         display: inline-block;
     }
+    
         .sup-master{
             display: flex;
             flex-grow: 1;
@@ -127,8 +128,9 @@ body{
             
             padding-left: 12px;
             height: auto;
-            border: 15px solid white;
+            border: 15px solid rgb(255, 255, 255);
             border-radius: 10%;
+            color: #1b08c5;
             
         }
         
@@ -139,20 +141,32 @@ body{
             font-size: 20px;
             font-weight: bold;
             color: #fff;
-            background-image: url(../img/tanks.jpg);
-            padding: 50px 0;
+            background-image: url(../img/oil.jpg);
+            padding: 0;
             border-radius: 30%;
             border: 15px solid;
+            text-align: center;
+            
+            
         }
         
         .plan .plan-btn {
-            background-color: #191068;
-            color: #fff;
+            background-color: #1a0e87;
+            color: rgb(249, 249, 249);
             font-size: 24px;
             height: 75px;
             line-height: 75px;
             cursor: pointer;
             border: none;
+        }
+            .plan .plan-btn:hover {
+                background-color: #090244;
+                color: rgb(0, 170, 255);
+                font-size: 24px;
+                height: 75px;
+                line-height: 75px;
+                cursor: pointer;
+                border: none;
             
             }
         
@@ -213,6 +227,13 @@ body{
           .rw{
             width: 27px;
             margin-top: 6px;
+          }
+          .ghou{
+            background-image: url(../img/tanks.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+    border-radius: 5px;
           }
         
         
